@@ -6,13 +6,16 @@
 
 @h1 SYNOPSIS
 
-%PROGRAM% [-c command] [-t tag] [-r rcfile] [-V] [file]...
+%PROGRAM% [+line] [-c command] [-t tag] [-r rcfile] [-V] [file]...
 
 @h1 DESCRIPTION
 
 A small and flexible text editor.
 
 @h1 COMMAND LINE OPTIONS
+
++line
+	Go to line.
 
 -c command
 	Run this command after reading the rc file and opening any files
